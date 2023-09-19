@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+main{
+  padding-left: 20px;
+}
+
+section {
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #81DAF5;
+  text-align: center;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: #CEECF5; 
+}
+
+tr:nth-child(odd) {
+  background-color: #81DAF5; 
+}
+
+tr:hover {
+  background-color: #F2F5A9; 
+}
+td {
+  padding: 10px;
+}
+#taskForm {
+  background-color: #f8f8f8; 
+  width: 100%;
+  text-align: center;
+}
+
+#taskForm input[type="text"],
+#taskForm input[type="date"],
+#taskForm button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  gap: 20px;
+}
+input[type="checkbox"]{
+  text-align: center;
+}
+.weekday {
+  margin-top: 16px;
+}
+
+.weekday h3 {
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.task-checkbox {
+  margin-right: 8px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.buttons {
+  margin: 12px;
+}
+
+.due-date {
+  margin-left: 8px;
+  font-style: italic;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.intro{
+  text-align: center;
+  margin: 10px;
+}
+
+#todayTasks, #weekTasks, #monthTasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border-radius: 20%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.display{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+#searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  font-size: 14px;
+}
+
+#searchInput:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
